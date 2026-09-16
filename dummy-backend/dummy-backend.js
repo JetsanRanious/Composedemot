@@ -5,7 +5,7 @@ const app = express();
 
 
 app.get("/api/message" , (req, res)=>{
-    res.json({message: "Welcome to dummy backend"});
+    res.json({message: "Welcome to dummy backend."});
 })
 
 app.listen(port , () =>{
